@@ -56,7 +56,6 @@ section#instructors i:hover{
     opacity: 0.5;
 }
 
-
 /*! -------------- 3- ABOUT SECTION -------------- */
 
 /*! -------------- 4- INSTRUCTORS ---------------- */
@@ -64,6 +63,16 @@ section#instructors i:hover{
 /*! -------------- 4- STUDENTS SECTION ----------- */
 
 /*! -------------- 5- COURSES SECTION ------------ */
+
+section#courses .nav-link.active{
+    background-color: var(--red);
+}
+section#courses .nav-link{
+    color: white;
+}
+section#courses .nav-pills{
+    font-size: 0.8rem;
+}
 
 /*! -------------- 6- CONTACT SECTION ------------ */
 
